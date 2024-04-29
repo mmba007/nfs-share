@@ -1,5 +1,5 @@
-# Use a Java 17 base image
-FROM adoptopenjdk/openjdk17:alpine-slim
+# Use a Java 17 base image from Amazon Corretto
+FROM amazoncorretto:17-alpine
 
 # Set the working directory in the container
 WORKDIR /app
